@@ -1,0 +1,30 @@
+#profil {
+  box-sizing: border-box;
+}
+.user-img {
+  margin-top: 40%;
+}
+#photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+#file {
+  display: none;
+}
+#uploadbtn {
+  position: absolute;
+  margin-top: 7%;
+  left: 53%;
+  line-height: 30px;
+  height: 32px;
+  width: 32px;
+  text-align: center;
+  padding: 0px;
+  border-radius: 50%;
+  border: 2px;
+  border-style: solid;
+  cursor: pointer;
+  border-color: black;
+  background-color: white;
+}

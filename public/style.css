@@ -1,0 +1,55 @@
+.navbar {
+  background-color: #ffffff;
+}
+
+#menu {
+  padding-top: 2rem;
+}
+
+.wrapper {
+  display: grid;
+  gap: var(--size-3);
+  grid-auto-flow: column;
+  scroll-behavior: auto;
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+  scroll-snap-type: inline mandatory;
+  scrollbar-width: none;
+  display: flex;
+}
+.wrapper::-webkit-scrollbar {
+  display: 0px;
+}
+.wrapper .item {
+  margin-right: 30px;
+  margin-bottom: 10px;
+}
+
+.login {
+  height: 100vh;
+}
+.simslogintext {
+  font-style: normal;
+  font-weight: 600;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 48px;
+  color: black;
+}
+.simsregistext {
+  font-style: normal;
+  font-weight: 600;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 48px;
+  color: black;
+}
+
+.header {
+  padding-top: 10rem;
+}
+
+.figure {
+  width: 70px;
+  height: 70px;
+}
